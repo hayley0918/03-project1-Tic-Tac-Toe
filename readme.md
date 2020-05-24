@@ -2,7 +2,7 @@
 
 First project in General Assembly Software Engineering Immersive course.
 
-![Image of TicTacToe](./tictactoe_image.png)
+![Image of TicTacToe](./tictactoe_image.png =250x250)
 
 ## Getting Started
 
