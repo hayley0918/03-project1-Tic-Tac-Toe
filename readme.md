@@ -1,7 +1,8 @@
 # Tic Tac Toe game for 2 players
 
 First project in General Assembly Software Engineering Immersive course.
-![Image of TicTacToe](/tictactoe_image)
+
+![Image of TicTacToe](./tictactoe_image)
 
 ## Getting Started
 
