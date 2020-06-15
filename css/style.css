@@ -1,32 +1,32 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     font-family: sans-serif;
     justify-content: center;
     color:#545454;
 }
 
-.container{
+.container {
     background-color: #14BDAC;
     margin: 50px;
     padding: 50px;
     border-radius: 25px;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
-.title span{
+.title span {
     color: #F2EBD3;
 }
 
-.status-action{
+.status-action {
     display: flex;
     margin-top: 25px;
     font-size: 25px;
@@ -34,19 +34,19 @@ body{
     height: 30px;
 }
 
-.status span{
+.status span {
     color: #F2EBD3;
 }
 
-.reset{
+.reset {
     cursor: pointer;
 }
 
-.reset:hover{
+.reset:hover {
     color:  #F2EBD3;
 }
 
-.game-grid{
+.game-grid {
     background-color: #0AD192;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -55,7 +55,7 @@ body{
     margin-top: 50px;
 }
 
-.game-cell{
+.game-cell {
     height: 200px;
     width: 200px;
     background-color: #14BDAC;
@@ -66,61 +66,61 @@ body{
 }
 
 .x,
-.o{
+.o {
     cursor: default;
 }
 
-.x::after{
+.x::after {
     content: '×';
     font-size: 200px;
 }
 
-.o::after{
+.o::after {
     content: '○';
     font-size: 200px;
     color: #F2EBD3;
 }
 
-.won::after{
+.won::after {
     color: #BD022F;
 }
 
-@media only screen and (max-width: 1024px){
-    .game-grid{
+@media only screen and (max-width: 1024px) {
+    .game-grid {
         margin-top: 25px;
         grid-gap: 10px
     }
 
-    .game-cell{
+    .game-cell {
         height: 150px;
         width: 150px;
     }
 
-    .x::after{
+    .x::after {
         font-size: 150px;
     }
 
-    .o::after{
+    .o::after {
         font-size: 175px;
     }
 }
 
-@media only screen and (max-width: 540px){
-    .container{
+@media only screen and (max-width: 540px) {
+    .container {
         margin: 25px;
         padding: 25px;
     }
 
-    .game-cell{
+    .game-cell {
         height: 100px;
         width: 100px;
     }
 
-    .x::after{
+    .x::after {
         font-size: 100px;
     }
 
-    .o::after{
+    .o::after {
         font-size: 125px;
     }
 }

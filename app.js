@@ -1,5 +1,4 @@
 //HTML Elements
-
 var statusDiv = document.querySelector('.status')
 var resetDiv = document.querySelector('.reset')
 var cellDivs = document.querySelectorAll('.game-cell')
@@ -11,7 +10,6 @@ var oSymbol = '○'
 //game variables
 var gameIsLive = true
 var xIsNext = true
-
 
 //functions
 var letterToSymbol = (letter) => letter === 'x' ? xSymbol : oSymbol
@@ -98,8 +96,6 @@ var chceckGameStatus = () => {
     }
 }
 
-
-
 //event handlers
 var handleReset = () => {
     xIsNext = true
@@ -115,7 +111,7 @@ var handleReset = () => {
 var handleCellClick = (e) => {
     var classList = e.target.classList
 
-    if(!gameIsLive || classList[1]==='x' || classList[1]==='o'){
+    if(!gameIsLive || classList[1] === 'x' || classList[1] === 'o'){
         return
     }
 
