@@ -1,5 +1,7 @@
 # Tic Tac Toe game for 2 players
 
+https://hayley0918.github.io/03-project1-Tic-Tac-Toe/
+
 First project in General Assembly Software Engineering Immersive course.
 
 ## Screenshot of the app
@@ -22,7 +24,6 @@ The player who succeeds in placing three of their marks in a horizontal, vertica
 ### Deployment
 
 - Github
-- https://hayley0918.github.io/03-project1-Tic-Tac-Toe/
 
 ### Built with
 
