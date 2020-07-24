@@ -2,7 +2,9 @@
 
 First project in General Assembly Software Engineering Immersive course.
 
-![Image of TicTacToe](./tictactoe_image.png)
+## Screenshot of the app
+<img src ="./tictactoe_image.png" width="350" height="350">
+
 
 ## Getting Started
 
